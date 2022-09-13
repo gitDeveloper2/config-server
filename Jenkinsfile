@@ -19,7 +19,10 @@ pipeline {
                 echo 'Deploying'
             }
         }
-      
-        
+        post{
+            success{
+            echo 'success'
+            }
+        }
     }
 }
